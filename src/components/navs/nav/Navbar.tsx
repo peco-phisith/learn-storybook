@@ -8,7 +8,7 @@ const Navbar = ({ title, position }: NavbarProps) => {
   return (
     <>
       <div
-        className={`navbar bg-base-100 p-4 rounded-xl shadow-xl ${getJustifyContent(
+        className={`navbar bg-base-100 p-2 rounded-xl shadow-xl ${getJustifyContent(
           { position }
         )}`}
       >

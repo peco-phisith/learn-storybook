@@ -9,7 +9,7 @@ const Layout = ({ children }: LayoutProps) => {
     <>
       <div className="h-screen bg-base-300 w-full p-4 flex flex-col gap-4">
         <Navbar title="Pecgo" />
-        {children}
+        <div className="flex justify-center">{children}</div>
       </div>
     </>
   );
