@@ -6,12 +6,12 @@ function App() {
     <>
       <Layout>
         <div className="flex gap-2">
-          <Button title="Hi" color="secondary" onClick={() => alert("Hiiii")} />
+          {/* <Button title="Hi" color="secondary" onClick={() => alert("Hiiii")} />
           <Button
             title="Pecgo"
             color="warning"
             onClick={() => alert("Pecgo")}
-          />
+          /> */}
         </div>
       </Layout>
     </>
