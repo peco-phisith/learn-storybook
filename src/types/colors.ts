@@ -1,4 +1,4 @@
-export interface btnColorType {
+export interface btnColorProps {
   /**
    * Color of Button
    */

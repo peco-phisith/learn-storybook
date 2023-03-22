@@ -1,6 +1,6 @@
-import { btnColorType } from "../../types/colors";
+import { btnColorProps } from "../../types/colors";
 
-export const getBtnColor = ({ color }: btnColorType) => {
+export const getBtnColor = ({ color }: btnColorProps) => {
   switch (color) {
     case "primary":
       return "btn-primary";

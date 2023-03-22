@@ -1794,19 +1794,6 @@ html {
   content: attr(data-title);
 }
 
-.label {
-  display: flex;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-  align-items: center;
-  justify-content: space-between;
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
 .input-group > *,
   .input-group > .input,
   .input-group > .textarea,
@@ -1942,11 +1929,6 @@ html {
   background-color: hsl(var(--sf, var(--s)) / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: hsl(var(--sc) / var(--tw-text-opacity));
-}
-
-.btm-nav>* .label {
-  font-size: 1rem;
-  line-height: 1.5rem;
 }
 
 .btn:active:hover,
@@ -2190,11 +2172,6 @@ html {
   outline: 2px solid currentColor;
 }
 
-.label a:hover {
-  --tw-text-opacity: 1;
-  color: hsl(var(--bc) / var(--tw-text-opacity));
-}
-
 .link:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -2358,10 +2335,6 @@ html {
   display: grid;
 }
 
-.contents {
-  display: contents;
-}
-
 .h-full {
   height: 100%;
 }
@@ -2380,6 +2353,14 @@ html {
 
 .flex-col {
   flex-direction: column;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .gap-4 {

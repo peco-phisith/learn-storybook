@@ -1,6 +1,6 @@
-import { btnColorType } from "../../../types/colors";
+import { btnColorProps } from "../../../types/colors";
 
-export interface ButtonTypes extends btnColorType {
+export interface ButtonTypes extends btnColorProps {
   /**
    * Type of button
    */

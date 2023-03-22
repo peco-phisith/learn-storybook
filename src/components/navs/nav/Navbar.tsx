@@ -1,9 +1,20 @@
-import { NavbarInterface } from "./type";
-const Navbar = (props: NavbarInterface) => {
+import { getJustifyContent } from "../../../helpers/ui/positions";
+import { NavbarProps } from "./type";
+
+/**
+ * Main `Navbar` of the application
+ */
+const Navbar = ({ title, position }: NavbarProps) => {
   return (
     <>
-      <div className="navbar bg-base-100 p-4 rounded-xl shadow-xl">
-        <a className="btn btn-ghost normal-case text-xl text-warning">Pecgo</a>
+      <div
+        className={`navbar bg-base-100 p-4 rounded-xl shadow-xl ${getJustifyContent(
+          { position }
+        )}`}
+      >
+        <a className="btn btn-ghost normal-case text-xl text-warning">
+          {title}
+        </a>
       </div>
     </>
   );
