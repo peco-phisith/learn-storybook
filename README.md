@@ -28,7 +28,7 @@ However, by using Storybook will help the new teammate to get familiar with the 
 
 ### How to create storybook components ?
 
-1. First you need to create your components and `stories` file with the same name ( the compoenets name must be the same name with stories ).
+1. First you need to create your components and `stories` file with the same name ( the components name must be the same name with stories ).
 
 ```
 - components
