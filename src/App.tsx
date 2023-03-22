@@ -1,5 +1,4 @@
-import Layout from "./components/layouts/layout/Layout";
-import Navbar from "./components/navs/nav/Navbar";
+import Layout from "./components/layouts/mainLayout/Layout";
 
 function App() {
   return (
