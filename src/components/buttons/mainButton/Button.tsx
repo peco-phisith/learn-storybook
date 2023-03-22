@@ -1,9 +1,16 @@
+import { getBtnColor } from "../../../helpers/ui/colors";
 import { ButtonTypes } from "./type";
 
-const Button = (props: ButtonTypes) => {
+const Button = ({ type = "button", title, color, onClick }: ButtonTypes) => {
   return (
     <>
-      <button type={props.type} className="btn"></button>
+      <button
+        type={type}
+        className={`btn ${getBtnColor({ color })}`}
+        onClick={onClick}
+      >
+        {title}
+      </button>
     </>
   );
 };

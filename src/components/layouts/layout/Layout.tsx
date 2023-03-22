@@ -1,10 +1,10 @@
 import Navbar from "../../navs/nav/Navbar";
-import { LayoutProps } from "./type";
+import { LayoutProps } from "../../../types/layouts";
 
 const Layout = ({ children }: LayoutProps) => {
   return (
     <>
-      <div className="h-screen bg-gray-50 w-full">
+      <div className="h-screen bg-base-300 w-full p-4 flex flex-col gap-4">
         <Navbar />
         {children}
       </div>
